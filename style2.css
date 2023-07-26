@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+.header{
+    height: 2rem;
+    padding: 3%;
+    background-color: rgb(230, 229, 229);
+    color: rgb(6, 82, 117);
+    font-weight: 600;
+    font-size: 30px;
+}
+.button{
+    display: inline-flex;
+    width: 20%;
+    margin: 4%;
+    height: max-content;
+    padding: 2%;
+    font-size: 22px;
+    position: relative;
+    font-weight: 1000;
+    border: 3.5px solid black;
+}
+.button:hover{
+    border: 3.5px solid greenyellow;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) 
+{
+    .header{
+        height: 1.2rem;
+        padding: 5%;
+        font-size: 22px;
+        text-align: left;
+    }
+    .btn{
+        color: black;
+        display: block;
+        right: 0;
+        text-align: right;
+        margin-top: -5%;
+        font-size: 18px;
+    }
+    .button{
+        margin-top: 10%;
+        width: 45%;
+        padding: 6%;
+        font-size: 21px;
+        font-weight: 800;
+        border-radius: 5%;
+    }
+    .cat{
+        overflow: hidden;
+        border-right: .15em solid white;
+        white-space: nowrap;
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 0px;
+        letter-spacing: .15em;
+
+        animation: 
+         typing 3.5s steps(30, end),
+         blink-caret .5s step-end 7;
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 50% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: rgb(0, 89, 255) }
+        
+    }
+}

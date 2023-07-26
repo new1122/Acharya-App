@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+.header{
+    height: 2rem;
+    padding: 3%;
+    background-color: rgb(230, 229, 229);
+    color: rgb(6, 82, 117);
+    font-weight: 600;
+    font-size: 30px;
+}
+.button{
+    display: inline-flex;
+    width: 20%;
+    margin: 4%;
+    height: max-content;
+    padding: 2%;
+    font-size: 22px;
+    position: relative;
+    font-weight: 1000;
+    border: 3.5px solid black;
+}
+.button:hover{
+    border: 3.5px solid greenyellow;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) 
+{
+    .header{
+        height: 1.2rem;
+        padding: 5%;
+        font-size: 22px;
+        text-align: left;
+    }
+
+ table{
+   
+ }
+ table tr{
+    
+ }
+}
