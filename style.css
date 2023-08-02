@@ -106,8 +106,9 @@
     }
     .rate {
         float: left;
-        margin-left: 50px;
-        margin-right: 70px;
+        width: 100%;
+        /* margin-left: 50px; */
+        /* margin-right: 190px; */
         height: 46px;
         padding: 0 0px;
     }
