@@ -105,12 +105,9 @@
         width: 9%;
     }
     .rate {
-        float: left;
-        width: 100%;
-        /* margin-left: 50px; */
-        /* margin-right: 190px; */
+        display: block;
+        width: 70%;
         height: 46px;
-        padding: 0 0px;
     }
     .rate:not(:checked) > input {
         position:absolute;
