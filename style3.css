@@ -47,4 +47,55 @@
  table tr{
     
  }
+ .bottom{
+    padding: 5%;
+    bottom: 0;
+    background-color: rgb(230, 229, 229);
+}
+.head{
+    font-family:cursive;
+}
+.images{
+    margin-right: 9%;
+    height: 9%;
+    width: 9%;
+}
+.rate {
+    float: left;
+    margin-left: 50px;
+    margin-right: 40px;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width: 1em;;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffe600;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #fcf700;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #ffc800;
+}
+
 }
