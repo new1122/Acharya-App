@@ -101,13 +101,14 @@
         font-size: 18px;
     }
     .images{
-        margin-right: 9%;
+        margin-left: 7%;
+        margin-right: 2%;
         height: 9%;
         width: 9%;
     }
     .rate {
         display: block;
-        width: 78%;
+        width: 74%;
         height: 46px;
     }
     .rate:not(:checked) > input {
